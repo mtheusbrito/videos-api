@@ -1,5 +1,5 @@
 import { Arg, Field, InputType, Mutation, Query, Resolver } from 'type-graphql';
-import Category from '../../model/Category';
+import Category from './Category';
 import CategorySchema from '../../model/CategorySchema';
 
 @InputType()
